@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Mario Rossi",
+    "birthdate": "1980-01-01"
+  },
+  {
+    "id": 2,
+    "name": "Gianluca Verdi",
+    "birthdate": "2000-03-06"
+  },
+  {
+    "id": 3,
+    "name": "Andrea Bianchi",
+    "birthdate": "1993-11-09"
+  }
+]
