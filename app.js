@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const jwt = require("jsonwebtoken");
+const Ajv = require("ajv");
 const fs = require("fs");
 require("dotenv").config();
 
@@ -81,24 +82,35 @@ app.get("/patient", verifyToken, (req, res) => {
         patient = element;
       }
     });
+    patient.errorMessage = "";
+
     res.status(200).json({ patient: patient, errorMessage: null });
   } catch {
     res.status(400).send("Bad Request");
   }
 });
 
-app.post("/results", verifyToken, (req, res) => {
+app.post("/results", verifyToken, async (req, res) => {
   try {
-    let userId = req.decoded.id;
+    // This lines are used to define the schema used later to validate
+    const schema = require("./schema/results.js");
+    const ajv = new Ajv({ allErrors: true });
+    const validate = ajv.compile(schema);
 
-    // Read the content of the JSON file
-    const jsonData = JSON.parse(fs.readFileSync("./data/results.json", "utf8"));
-
-    // Extract data from the request body
     const results = req.body;
-    results.patientId = userId;
+    const valid = validate(results);
 
-    // Add new data to the array
+    if (!valid) {
+      // console.log("Validation errors:", validate.errors);
+      res.status(400).send("Bad Request");
+      return;
+    }
+
+    // DO WE NEED THE PATIENT ID?
+    // let userId = req.decoded.id;
+    // results.patientId = userId;
+
+    const jsonData = JSON.parse(fs.readFileSync("./data/results.json", "utf8"));
     jsonData.push(results);
 
     // Write the modified object back to the JSON file
@@ -113,7 +125,7 @@ app.post("/results", verifyToken, (req, res) => {
       error: null,
     });
   } catch (error) {
-    res.status(400).send("Bad Request");
+    res.status(500).send("Internal Server Error");
   }
 });
 

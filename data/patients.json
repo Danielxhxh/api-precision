@@ -1,17 +1,72 @@
 [
   {
     "id": 1,
-    "name": "Mario Rossi",
-    "birthdate": "1980-01-01"
+    "first_name": "Giulia",
+    "Last_name": "Ricci",
+    "Birth_Date": "1990-03-15",
+    "Height": {
+      "unit": "centimeters",
+      "value": 165
+    },
+    "Weight": {
+      "unit": "Kilograms",
+      "value": 55
+    }
   },
   {
     "id": 2,
-    "name": "Gianluca Verdi",
-    "birthdate": "2000-03-06"
+    "first_name": "Marco",
+    "Last_name": "Rossi",
+    "Birth_Date": "1985-07-20",
+    "Height": {
+      "unit": "centimeters",
+      "value": 180
+    },
+    "Weight": {
+      "unit": "Kilograms",
+      "value": 75
+    }
   },
   {
     "id": 3,
-    "name": "Andrea Bianchi",
-    "birthdate": "1993-11-09"
+    "first_name": "Francesca",
+    "Last_name": "Bianchi",
+    "Birth_Date": "1978-11-10",
+    "Height": {
+      "unit": "centimeters",
+      "value": 170
+    },
+    "Weight": {
+      "unit": "Kilograms",
+      "value": 80
+    }
+  },
+  {
+    "id": 4,
+    "first_name": "Lorenzo",
+    "Last_name": "De Luca",
+    "Birth_Date": "2000-05-05",
+    "Height": {
+      "unit": "centimeters",
+      "value": 155
+    },
+    "Weight": {
+      "unit": "Kilograms",
+      "value": 50
+    }
+  },
+  {
+    "id": 5,
+    "first_name": "Chiara",
+    "Last_name": "Galli",
+    "Birth_Date": "1995-12-25",
+    "Height": {
+      "unit": "centimeters",
+      "value": 160
+    },
+    "Weight": {
+      "unit": "Kilograms",
+      "value": 65
+    }
   }
 ]
