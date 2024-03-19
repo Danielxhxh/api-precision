@@ -102,13 +102,14 @@ app.post("/results", verifyToken, async (req, res) => {
 
     if (!valid) {
       // console.log("Validation errors:", validate.errors);
-      res.status(400).send("Bad Request");
+      // res.status(400).send("Bad Request");
+      res.status(400).json(validate.errors);
       return;
     }
 
     // DO WE NEED THE PATIENT ID?
-    // let userId = req.decoded.id;
-    // results.patientId = userId;
+    let userId = req.decoded.id;
+    results.patientId = userId;
 
     const jsonData = JSON.parse(fs.readFileSync("./data/results.json", "utf8"));
     jsonData.push(results);

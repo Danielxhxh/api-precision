@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "first_name": "Giulia",
-    "Last_name": "Ricci",
+    "first_name": "",
+    "Last_name": "",
     "Birth_Date": "1990-03-15",
     "Height": {
       "unit": "centimeters",
@@ -15,8 +15,8 @@
   },
   {
     "id": 2,
-    "first_name": "Marco",
-    "Last_name": "Rossi",
+    "first_name": "",
+    "Last_name": "",
     "Birth_Date": "1985-07-20",
     "Height": {
       "unit": "centimeters",
@@ -29,8 +29,8 @@
   },
   {
     "id": 3,
-    "first_name": "Francesca",
-    "Last_name": "Bianchi",
+    "first_name": "",
+    "Last_name": "",
     "Birth_Date": "1978-11-10",
     "Height": {
       "unit": "centimeters",
@@ -43,8 +43,8 @@
   },
   {
     "id": 4,
-    "first_name": "Lorenzo",
-    "Last_name": "De Luca",
+    "first_name": "",
+    "Last_name": "",
     "Birth_Date": "2000-05-05",
     "Height": {
       "unit": "centimeters",
@@ -57,8 +57,8 @@
   },
   {
     "id": 5,
-    "first_name": "Chiara",
-    "Last_name": "Galli",
+    "first_name": "",
+    "Last_name": "",
     "Birth_Date": "1995-12-25",
     "Height": {
       "unit": "centimeters",

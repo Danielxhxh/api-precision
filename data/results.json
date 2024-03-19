@@ -1,1 +1,328 @@
-[]
+[
+  {
+    "FVC": {
+      "value": 3.2,
+      "unit": "centiliters"
+    },
+    "FEV1": {
+      "value": 2.8,
+      "unit": "centiliters"
+    },
+    "PEF": {
+      "value": 350,
+      "unit": "centiliters/second"
+    },
+    "FEF75": {
+      "value": 2.5,
+      "unit": "centiliters/seconds"
+    },
+    "FEF2575": {
+      "value": 3,
+      "unit": "centiliters/seconds"
+    },
+    "FET": {
+      "value": 5.5,
+      "unit": "seconds/100"
+    },
+    "FEV1%": {
+      "value": 85,
+      "unit": "percentage"
+    },
+    "FEV6": {
+      "value": 3,
+      "unit": "centiliters"
+    },
+    "FEV6%": {
+      "value": 90,
+      "unit": "percentage"
+    },
+    "FEV6/FVC": {
+      "value": 94,
+      "unit": "percentage"
+    },
+    "FEF25": {
+      "value": 2,
+      "unit": "centiliters/second"
+    },
+    "FEF50": {
+      "value": 2.3,
+      "unit": "centiliters/second"
+    },
+    "FEV3p": {
+      "value": 80,
+      "unit": "percentage"
+    },
+    "DTPEF": {
+      "value": 120,
+      "unit": "milliseconds"
+    },
+    "FEV05": {
+      "value": 2,
+      "unit": "centiliters"
+    },
+    "FEV05p": {
+      "value": 75,
+      "unit": "percentage"
+    },
+    "FEV075": {
+      "value": 2.5,
+      "unit": "centiliters"
+    },
+    "FEV075p": {
+      "value": 80,
+      "unit": "percentage"
+    },
+    "VEXT": {
+      "value": 3.5,
+      "unit": "centiliters"
+    },
+    "FIVC": {
+      "value": 3.4,
+      "unit": "centiliters"
+    },
+    "FIV1": {
+      "value": 3,
+      "unit": "centiliters"
+    },
+    "FIV1%": {
+      "value": 88,
+      "unit": "percentage"
+    },
+    "PIF": {
+      "value": 400,
+      "unit": "centiliters/seconds"
+    },
+    "FEV3": {
+      "value": 2.9,
+      "unit": "centiliters"
+    },
+    "TIME_TO_PEF": {
+      "value": 150,
+      "unit": "milliseconds"
+    },
+    "HESITATION": {
+      "value": 200,
+      "unit": "milliseconds"
+    },
+    "FLOW-VOLUME CURVE POINTS": [
+      {
+        "flow": 10,
+        "volume": 100
+      },
+      {
+        "flow": 20,
+        "volume": 150
+      },
+      {
+        "flow": 30,
+        "volume": 200
+      }
+    ],
+    "acceptability": {
+      "FVC": "OK",
+      "FEV1": "OK"
+    },
+    "VOLUME-time CURVE POINTS": [
+      {
+        "volume": 200,
+        "time": 2
+      },
+      {
+        "volume": 400,
+        "time": 4
+      },
+      {
+        "volume": 600,
+        "time": 6
+      }
+    ],
+    "quality_control_grade": {
+      "FVC": "A",
+      "FEV1": "A"
+    },
+    "variability": {
+      "FVC": "Yes",
+      "FEV1": "Yes"
+    },
+    "calculation of best maneuver": "Maneuver 3",
+    "calculation of best 3 maneuvers": "Maneuver 1, Maneuver 3, Maneuver 5",
+    "EVC": {
+      "value": 3.5,
+      "unit": "centiliters"
+    },
+    "IVC": {
+      "value": 3.2,
+      "unit": "centiliters"
+    },
+    "Set_or_sit": {
+      "value": 120,
+      "unit": "milliseconds"
+    },
+    "pdf": {
+      "value": "Base64EncodedPDFContent"
+    }
+  },
+  {
+    "FVC": {
+      "value": 3.2,
+      "unit": "centiliters"
+    },
+    "FEV1": {
+      "value": 2.8,
+      "unit": "centiliters"
+    },
+    "PEF": {
+      "value": 350,
+      "unit": "centiliters/second"
+    },
+    "FEF75": {
+      "value": 2.5,
+      "unit": "centiliters/seconds"
+    },
+    "FEF2575": {
+      "value": 3,
+      "unit": "centiliters/seconds"
+    },
+    "FET": {
+      "value": 5.5,
+      "unit": "seconds/100"
+    },
+    "FEV1%": {
+      "value": 85,
+      "unit": "percentage"
+    },
+    "FEV6": {
+      "value": 3,
+      "unit": "centiliters"
+    },
+    "FEV6%": {
+      "value": 90,
+      "unit": "percentage"
+    },
+    "FEV6/FVC": {
+      "value": 94,
+      "unit": "percentage"
+    },
+    "FEF25": {
+      "value": 2,
+      "unit": "centiliters/second"
+    },
+    "FEF50": {
+      "value": 2.3,
+      "unit": "centiliters/second"
+    },
+    "FEV3p": {
+      "value": 80,
+      "unit": "percentage"
+    },
+    "DTPEF": {
+      "value": 120,
+      "unit": "milliseconds"
+    },
+    "FEV05": {
+      "value": 2,
+      "unit": "centiliters"
+    },
+    "FEV05p": {
+      "value": 75,
+      "unit": "percentage"
+    },
+    "FEV075": {
+      "value": 2.5,
+      "unit": "centiliters"
+    },
+    "FEV075p": {
+      "value": 80,
+      "unit": "percentage"
+    },
+    "VEXT": {
+      "value": 3.5,
+      "unit": "centiliters"
+    },
+    "FIVC": {
+      "value": 3.4,
+      "unit": "centiliters"
+    },
+    "FIV1": {
+      "value": 3,
+      "unit": "centiliters"
+    },
+    "FIV1%": {
+      "value": 88,
+      "unit": "percentage"
+    },
+    "PIF": {
+      "value": 400,
+      "unit": "centiliters/seconds"
+    },
+    "FEV3": {
+      "value": 2.9,
+      "unit": "centiliters"
+    },
+    "TIME_TO_PEF": {
+      "value": 150,
+      "unit": "milliseconds"
+    },
+    "HESITATION": {
+      "value": 200,
+      "unit": "milliseconds"
+    },
+    "FLOW-VOLUME CURVE POINTS": [
+      {
+        "flow": 10,
+        "volume": 100
+      },
+      {
+        "flow": 20,
+        "volume": 150
+      },
+      {
+        "flow": 30,
+        "volume": 200
+      }
+    ],
+    "acceptability": {
+      "FVC": "OK",
+      "FEV1": "OK"
+    },
+    "VOLUME-time CURVE POINTS": [
+      {
+        "volume": 200,
+        "time": 2
+      },
+      {
+        "volume": 400,
+        "time": 4
+      },
+      {
+        "volume": 600,
+        "time": 6
+      }
+    ],
+    "quality_control_grade": {
+      "FVC": "A",
+      "FEV1": "A"
+    },
+    "variability": {
+      "FVC": "Yes",
+      "FEV1": "Yes"
+    },
+    "calculation of best maneuver": "Maneuver 3",
+    "calculation of best 3 maneuvers": "Maneuver 1, Maneuver 3, Maneuver 5",
+    "EVC": {
+      "value": 3.5,
+      "unit": "centiliters"
+    },
+    "IVC": {
+      "value": 3.2,
+      "unit": "centiliters"
+    },
+    "Set_or_sit": {
+      "value": 120,
+      "unit": "milliseconds"
+    },
+    "pdf": {
+      "value": "Base64EncodedPDFContent"
+    }
+  }
+]
